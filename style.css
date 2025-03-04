@@ -1,1 +1,14 @@
-
+name_avatar {
+    margin: center;
+    max-width: 1200px;
+}
+ava, name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ava{
+    width: 50%;
+    height: 50%;
+    padding: 30px;
+}
