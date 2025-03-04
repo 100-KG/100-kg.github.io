@@ -2,6 +2,8 @@ body{
     background-color: aquamarine;
 }
 .CV{
+    border-radius: 50px;
+    background-color: wheat;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -19,12 +21,20 @@ body{
     width: 50%;
     height: 50%;
     padding: 30px;
-    border-radius: 40px;
+    border-radius: 300px;
 }
 .name{
-    margin: auto;
-}
-.skills{
+    font-size: 200%;
     margin-left: auto;
     margin-right: auto;
+}
+.skills, .in4, .his{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.his{
+    padding-bottom: 100px;
 }
