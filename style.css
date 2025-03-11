@@ -14,34 +14,38 @@ body{
     /* width: 80%; */
     margin-left: auto;
     margin-right: auto;
-    max-width: 500px;
+    max-width: 600px;
     min-width: 300px;
 }
 .name_avatar {
-    /* max-width: 1200px; */
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
 }
 .ava{
     width: 150px;
     height: 150px;
-    padding: 30px;
-    padding-left: 30px;
+    padding: 50px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
 }
+
 .name{
-    font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 30px;
+    /* font-size: 20px; */
+    margin: auto;
+    padding-right: 50px;
 }
-.skills, .in4, .his, .message{
+
+.in4{
     padding-left: 100px;
     padding-right: 100px;
-    padding-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skills, .his, .message{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -49,6 +53,7 @@ body{
 .skills p, .in4 p, .his p{
     padding-top: 5px;
 }
+
 .message {
     padding-bottom: 50px;
     /* object-position: center; */

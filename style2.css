@@ -66,13 +66,24 @@ h1{
     width: 100%;
 }
 
-.sendbutton{
+button{
     padding: 5px;
     margin-left: auto;
     margin-right: auto; 
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+button.abled {
+    background-color: #1B4965;
+    color:#CAE9FF;
 }
 
 .req{
     color: red;
+}
+
+.notify{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
 }
