@@ -16,41 +16,13 @@ body{
     margin-right: auto;
     max-width: 500px;
     min-width: 300px;
-}
-.name_avatar {
-    /* max-width: 1200px; */
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
 }
-.ava{
-    width: 150px;
-    height: 150px;
-    padding: 30px;
-    padding-left: 30px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center;
-}
-.name{
-    font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 30px;
-}
-.skills, .in4, .his, .message{
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top:50px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.skills p, .in4 p, .his p{
-    padding-top: 5px;
-}
 .message {
-    padding-bottom: 50px;
+    padding: 100px;
     /* object-position: center; */
 }
 
@@ -64,14 +36,25 @@ body{
     text-transform: uppercase;
     color: black;
 }
-
+.message input{
+    display: block;
+    width: 100%;
+}
 .nav{
     text-decoration: none;
     color: black;
     padding-left: 100px;
     padding-top: 50px;
 }
-
+/* .from, .title, .mesTA {
+    font-size:
+} */
+.sendbutton{
+    
+}
 .nav a{
     color: black;
+}
+.mesTA{
+    width: 100%;
 }
